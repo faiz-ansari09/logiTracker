@@ -5,7 +5,7 @@ import toast, { Toaster } from "react-hot-toast";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { setuser } from "../store/userSlice";
-const Signin = () => {
+const Signup = () => {
   const [formData, setFormData] = useState({
     name: "",
     password: "",
