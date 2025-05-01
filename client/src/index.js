@@ -18,7 +18,7 @@ import CoinByID from "./pages/CoinByID";
 import { createContext } from "react";
 import { Provider } from "react-redux";
 import { appStore } from "./store/appStore";
-import Signin from "./pages/Signin";
+import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
 
@@ -47,7 +47,7 @@ const appRouter = createBrowserRouter([
       { path: "/watchlist", element: <Watchlist /> },
       { path: "/trending", element: <Trending /> },
       { path: "/coin/:id", element: <CoinByID /> },
-      { path: "/signin", element: <Signin /> },
+      { path: "/signup", element: <Signup /> },
       { path: "/login", element: <Login /> },
       { path: "*", element: <NotFound /> },
     ],
