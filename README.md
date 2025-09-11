@@ -1,8 +1,7 @@
 # logiTracker 🚀
 
 Welcome to logiTracker – your go-to website for real-time cryptocurrency tracking! With logiTracker, you can stay updated with the latest prices, trends, and market data for your favorite cryptocurrencies.
-LogiTracker is a full-stack web application built with *Node.js, Express, MongoDB, and React*.  
-It provides user authentication, watchlist management, and real-time tracking of cryptocurrency/asset data.
+LogiTracker is a full-stack web application built with *Node.js, Express, MongoDB, and React*. It provides user authentication, watchlist management, and real-time tracking of cryptocurrency/asset data.
 
 ---
 
