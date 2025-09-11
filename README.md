@@ -1,38 +1,115 @@
-# logiTracker
+# logiTracker 🚀
 
 Welcome to logiTracker – your go-to website for real-time cryptocurrency tracking! With logiTracker, you can stay updated with the latest prices, trends, and market data for your favorite cryptocurrencies.
+LogiTracker is a full-stack web application built with *Node.js, Express, MongoDB, and React*.  
+It provides user authentication, watchlist management, and real-time tracking of cryptocurrency/asset data.
 
-Features -
+---
 
-Real-Time Data: Get live updates on cryptocurrency prices and market data. Comprehensive Overview: View detailed information about various cryptocurrencies including price, market cap, volume, and more. User-Friendly Interface: Easily navigate through a clean and intuitive interface designed for both beginners and experienced users. Customizable Dashboard: Personalize your dashboard to track the cryptocurrencies you care about most. Historical Data: Analyze historical price data and trends for better investment decisions. Alerts and Notifications: Set up alerts for price changes and market movements to stay informed.
+## ⚡ Features
 
-Getting Started -
+- 🔑 User Authentication (Signup & Login)
+- 📊 View Trending and Top 10 assets
+- ⭐ Manage Watchlist
+- 🔍 Search & filter assets
+- 🎨 Responsive UI using *TailwindCSS*
+- 🌐 Backend API built with *Express & MongoDB*
 
-To start using logiTracker, follow these simple steps:
+---
 
-Visit the Website: Open your web browser and go to logiTracker.
+## 🛠 Tech Stack
 
-Sign Up / Log In: Create an account or log in if you already have one. This will allow you to save your preferences and set up custom alerts.
+*Frontend:*
+- React.js
+- Redux Toolkit
+- TailwindCSS
 
-Explore Cryptocurrencies: Use the search bar or browse through the available cryptocurrencies to find the ones you’re interested in.
+*Backend:*
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
 
-Customize Your Dashboard: Add your favorite cryptocurrencies to your dashboard to monitor their prices and trends at a glance.
+*Deployment:*
+- Vercel (Frontend + API)
 
-Set Up Alerts: Configure price alerts and notifications to receive updates on significant market movements.
+---
 
-Technologies Used -
+## 📂 Project Structure
 
-Frontend: HTML, CSS, JavaScript, React.js Backend: Node.js, Express.js Database: MongoDB APIs: CoinGecko API, CoinMarketCap API Hosting: Contributing We welcome contributions from the community! If you have suggestions, improvements, or bug fixes, please follow these steps:
+```
+logiTracker/
+ ├── api/                       # Backend (Node.js + Express + MongoDB) 
+ │   ├── model/                 # Database models (Mongoose schemas) 
+ │   │   └── users.js 
+ │   ├── router/                # API routes 
+ │   │   └── routes.js 
+ │   ├── dbConnection.js        # MongoDB connection setup 
+ │   ├── index.js               # Express server entry point 
+ │   ├── .env                   # Environment variables 
+ │   ├── package.json           # Backend dependencies 
+ │   ├── package-lock.json 
+ │   └── vercel.json            # Deployment config for Vercel 
+ ├── client/                    # Frontend (React + Redux + TailwindCSS) 
+ │   ├── public/                # Static assets 
+ │   │   ├── favicon.ico 
+ │   │   └── index.html 
+ │   ├── src/                   # Application source code 
+ │   │   ├── components/        # Reusable UI components 
+ │   │   │   ├── Card.js 
+ │   │   │   ├── Cards.js 
+ │   │   │   ├── Footer.js 
+ │   │   │   ├── Loadingui.js 
+ │   │   │   └── Navbar.js 
+ │   │   ├── pages/             # Page components (routing) 
+ │   │   │   ├── CoinByID.js 
+ │   │   │   ├── Home.js 
+ │   │   │   ├── Login.js 
+ │   │   │   ├── NotFound.js 
+ │   │   │   ├── Signup.js 
+ │   │   │   ├── Top10.js 
+ │   │   │   ├── Trending.js 
+ │   │   │   └── Watchlist.js 
+ │   │   ├── store/             # Redux store & slices 
+ │   │   │   ├── appStore.js 
+ │   │   │   ├── userSlice.js 
+ │   │   │   └── watchlistSlice.js 
+ │   │   ├── index.css          # Global styles 
+ │   │   ├── index.js           # React entry point 
+ │   ├── package.json           # Frontend dependencies 
+ │   ├── package-lock.json 
+ │   └── tailwind.config.js     # TailwindCSS configuration 
+ ├── LICENSE 
+ └── README.md                  # Project documentation
+```
 
-Fork the repository -
+---
 
-Create a new branch (git checkout -b feature/your-feature-name). Commit your changes (git commit -am 'Add new feature'). Push to the branch (git push origin feature/your-feature-name). Create a new Pull Request.
+## 🔧 Setup Instructions
 
-License -
+ **Clone the repository**
+   ```bash
+   git clone https://github.com/faiz-ansari09/logiTracker
+   ```
+   **Navigate to project folder**
+   ```bash
+   cd logiTracker
+   ```
 
-This project is licensed under the MIT License – see the LICENSE file for details.
+---
 
-Contact -
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/faiz-ansari09/logiTracker/blob/master/LICENSE)
+
+---
+
+## Contact
 
 For any questions or feedback, please reach out to us at ansarifaiz0905@gmail.com.
 
