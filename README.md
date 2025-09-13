@@ -73,7 +73,7 @@ logiTracker/
  │   │   │   ├── userSlice.js 
  │   │   │   └── watchlistSlice.js 
  │   │   ├── index.css          # Global styles 
- │   │   ├── index.js           # React entry point 
+ │   │   └── index.js           # React entry point 
  │   ├── package.json           # Frontend dependencies 
  │   ├── package-lock.json 
  │   └── tailwind.config.js     # TailwindCSS configuration 
